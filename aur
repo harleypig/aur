@@ -1,6 +1,6 @@
 #!/bin/bash
 
-aurdir=${AURDIR:-~/projects/aur}
+aurdir=${AURDIR:-/var/aur}
 
 if [ ! -e $aurdir ]; then
 
