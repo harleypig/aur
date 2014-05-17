@@ -36,5 +36,6 @@ else
   cd $aurdir
   echo 'updating repo ...'
   git read-tree -mu HEAD
+  git pull
 
 fi
